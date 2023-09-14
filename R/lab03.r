@@ -25,8 +25,8 @@
 
 #' Function to find the greatest common divisor of two numbers.
 #' 
-#' This function use Euclidian algorithm to caculate a GCD of 2 numbers(x and y)
-#'
+#' This function uses Euclidian algorithm to calculate a GCD of 2 numbers(x and y)
+#' Author: Satya Sai Naga Jaya Koushik Pilla
 #' @param x Integer
 #' @param y Integer  
 #' @return gcd of x ad y
@@ -41,28 +41,28 @@ euclidean <- function(x, y){
 }
 
 
-#' Function to calculates the shortest path from the initial node to other node 
+#' Function to calculate the shortest path from the initial node to other node 
 #' in the graph
 #' 
-#' This function implement the Dijkstras algorithm and find the shortest distance 
+#' This function implements the Dijkstras algorithm and finds the shortest distance 
 #' from the initial node to every other node in the graph
-#'
-#' @param graph An dataframe store the edge information
+#' Author: Qinyuan QI
+#' @param graph An data frame store the edge information
 #' @param init_node Init node number
-#' @return An vector that store the distance 
+#' @return An vector that stores the distance 
 #' @export
 dijkstra <- function(graph, init_node) {
 
-  # we get the max of graph dataframe elements(v1 and v2) to get the number of nodes
-  # for example, if max=6, but in the real graph, there exists orphan nodes, in the case
-  # of orphan node id > maxvalue, this case will be ignored, but if orphan node id <= max
+  # we get the max of graph data frame elements(v1 and v2) to get the number of nodes
+  # For example, if max=6, but in the real graph, there exists orphan nodes, in the case
+  # of orphan node id > max value, this case will be ignored, but if orphan node id <= max
   # then this one will still be considered, and the length from init_node to it will be INF
   # which is the init value.
   node_num <- max(max(graph$v1),max(graph$v2))
   
   len <- length(graph$w)
   
-  # init the cost matrix with Inf then assign the distance value using the values procided
+  # init the cost matrix with Inf then assign the distance value using the values provided
   # in graph['w']
   cost <- matrix(Inf, node_num, node_num)
   for(i in 1:len){
