@@ -3,14 +3,9 @@ Type: Package
 Title: Lab 03 Assignment of [Advanced R Proramming].
 Version: 1.0
 Date: 2023-09-13
-Author: Qinyuan Qi / Satya Sai Naga Jaya Koushik Pilla
-Maintainer: N/A
+Author: Qinyuan Qi(qinqi464@gmail.com).
+Maintainer: Qinyuan Qi(qinqi464@gmail.com).
 Description: Lab 03 Assignment of [Advanced R Proramming].
 License: MIT + file LICENSE
 RoxygenNote: 7.2.3
-Suggests: 
-    testthat (>= 3.0.0)
-Config/testthat/edition: 3
-Depends: 
-    R (>= 2.10)
-LazyData: true
+
