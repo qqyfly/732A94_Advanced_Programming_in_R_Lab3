@@ -4,15 +4,33 @@
 ##
 ## Script name: LAB 03
 ##
+## Author: Qinyuan Qi
+##
+## LiuID : qinqi464
+##
 ## Date Created: 2023-09-05
 ##
 ## Copyright (c) MIT
 ## ---------------------------
 
+## ---------------------------
+## load packages
+## ---------------------------
+
+
+## ---------------------------
+## Util Function Area
+## ---------------------------
+
+## ---------------------------
+## Function Area
+## ---------------------------
+
+
 #' Function to find the greatest common divisor of two numbers.
 #' 
 #' This function use Euclidian algorithm to caculate a GCD of 2 numbers(x and y)
-#' Author: Satya Sai Naga Jaya Koushik Pilla
+#'
 #' @param x Integer
 #' @param y Integer  
 #' @return gcd of x ad y
@@ -26,12 +44,13 @@ euclidean <- function(x, y){
   return(x)
 }
 
+
 #' Function to calculates the shortest path from the initial node to other node 
 #' in the graph
 #' 
 #' This function implement the Dijkstras algorithm and find the shortest distance 
 #' from the initial node to every other node in the graph
-#' Author: Qinyuanq Qi
+#'
 #' @param graph An dataframe store the edge information
 #' @param init_node Init node number
 #' @return An vector that store the distance 
