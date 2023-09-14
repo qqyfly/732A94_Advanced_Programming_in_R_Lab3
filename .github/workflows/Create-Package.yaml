@@ -1,4 +1,4 @@
-name: R Package CI
+name: Create Package
 
 on:
   push:
