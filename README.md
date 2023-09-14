@@ -6,3 +6,8 @@
 <!-- badges: end -->
 
 `lab03` provides  is a homework assignment of advanced R programming.
+
+## Features
+
+* Euclidian function provides the GCD of two numbers
+* Dijkstra Function calculates the shortest path from the starting node to other remaining nodes.
