@@ -34,11 +34,6 @@ jobs:
           http-user-agent: ${{ matrix.config.http-user-agent }}
           use-public-rspm: true
 
-    - name: Install dependencies
-      run: |
-        R -e 'install.packages(c("devtools", "roxygen2", "testthat"))'
-        R -e 'devtools::install_deps()'
-
     - name: Build and test package
       run: |
         R CMD build .
