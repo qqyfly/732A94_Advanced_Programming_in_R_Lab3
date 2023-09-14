@@ -18,9 +18,7 @@ install.packages("lab03")
 
 ## Usage
 
-Use `lab03` subset `[` operator the same way you would use `data.frame` one, but...
-
-
+Use the sample below as a reference or check man file for more information.
 
 ```r
 library(lab03)
