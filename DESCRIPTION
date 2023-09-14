@@ -1,6 +1,6 @@
 Package: lab03
 Type: Package
-Title: Lab 03 Assignment of [Advanced R Proramming].
+Title: Lab 03 Assignment of [Advanced R Proramming]
 Version: 1.0
 Date: 2023-09-13
 Authors@R: c(person("Qinyuan Qi", "Developer", role = c("aut", "cre"), email = "qiqinyuan@gmail.com"),
