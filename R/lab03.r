@@ -4,10 +4,6 @@
 ##
 ## Script name: LAB 03
 ##
-## Author: Qinyuan Qi
-##
-## LiuID : qinqi464
-##
 ## Date Created: 2023-09-05
 ##
 ## Copyright (c) MIT
