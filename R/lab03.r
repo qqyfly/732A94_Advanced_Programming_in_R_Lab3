@@ -9,7 +9,22 @@
 ## Copyright (c) MIT
 ## ---------------------------
 
-
+#' Function to find the greatest common divisor of two numbers.
+#' 
+#' This function use Euclidian algorithm to caculate a GCD of 2 numbers(x and y)
+#' Author: Satya Sai Naga Jaya Koushik Pilla
+#' @param x Integer
+#' @param y Integer  
+#' @return gcd of x ad y
+#' @export 
+euclidean <- function(x, y){
+  while (y != 0) {
+    remainder <- x %% y
+    x <- y
+    y <- remainder
+  }
+  return(x)
+}
 
 #' Function to calculates the shortest path from the initial node to other node 
 #' in the graph
