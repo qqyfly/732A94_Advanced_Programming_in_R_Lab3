@@ -15,4 +15,7 @@ test_that("Test for dijkstra function using sample input 02", {
   result <- dijkstra(wiki_graph,3)
   expect_equal(result, c(9,10,0,11,11,2))
 })
-
+test_that("Test for euclidean function", {
+  result <- euclidean(10, 20)
+  expect_equal(result, 10)
+})
