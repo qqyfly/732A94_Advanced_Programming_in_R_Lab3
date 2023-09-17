@@ -3,7 +3,6 @@
 
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/qqyfly/732A94_Advanced_Programming_in_R_Lab3/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/qqyfly/732A94_Advanced_Programming_in_R_Lab3/actions/workflows/R-CMD-check.yaml)
-[![Codecov test coverage](https://codecov.io/gh/qqyfly/732A94_Advanced_Programming_in_R_Lab3/branch/master/graph/badge.svg)](https://app.codecov.io/gh/qqyfly/732A94_Advanced_Programming_in_R_Lab3?branch=master)
 <!-- badges: end -->
 
 `lab03`   is a homework assignment of advanced R programming.
