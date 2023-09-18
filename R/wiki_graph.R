@@ -6,4 +6,5 @@
 #'   \item{v2}{end node}
 #'   \item{w}{edge length}
 #' }
+"wiki_graph"
 
