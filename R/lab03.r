@@ -9,8 +9,8 @@
 ## Copyright (c) MIT
 ## ---------------------------
 #' Function to find the greatest common divisor of two numbers.
-#' 
-#' This function uses Euclidian algorithm to calculate a GCD of 2 numbers(x and y)
+#' This function uses Euclidian algorithm to calculate a GCD of 2 numbers(x and y) 
+#'
 #' Author: Satya Sai Naga Jaya Koushik Pilla
 #' @param x Integer
 #' @param y Integer  
