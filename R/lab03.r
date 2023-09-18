@@ -13,9 +13,7 @@
 
 
 
-## ---------------------------
-## Function Area
-## ---------------------------
+
 
 
 #' Function to find the greatest common divisor of two numbers.
