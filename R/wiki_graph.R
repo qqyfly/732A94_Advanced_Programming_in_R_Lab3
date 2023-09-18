@@ -4,7 +4,7 @@
 #' \describe{
 #'   \item{v1}{start_node}
 #'   \item{v2}{end_node}
-#'   \item{w}{edge length}
+#'   \item{w}{edge_length}
 #' }
 "wiki_graph"
 
