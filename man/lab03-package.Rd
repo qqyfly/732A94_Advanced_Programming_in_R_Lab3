@@ -6,7 +6,7 @@
 \alias{lab03}
 \title{Lab 3 of Advanced Programming in R}
 \description{
-This package include following functions\cr 
+This package include following functions.\cr 
 1. euclidean\cr 
 2. dijkstra\cr 
 \cr
